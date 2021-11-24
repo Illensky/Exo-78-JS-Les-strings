@@ -18,6 +18,13 @@ let chaineMajSpan = document.querySelector('#chaineMaj')
 chaineMajSpan.innerHTML = stringMaj
 
 
+for (let i = 0; i < monTexte.length; i++) {
+    if (monTexte[i] === "a") {
+        alert("lettre a trouvé");
+    }
+}
+
+
 
 
 
